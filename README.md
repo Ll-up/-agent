@@ -1,6 +1,5 @@
-# HelloAgents智能旅行助手 🌍✈️
+# 智旅家
 
-基于HelloAgents框架构建的智能旅行规划助手,集成高德地图MCP服务,提供个性化的旅行计划生成。
 
 ## ✨ 功能特点
 
@@ -13,7 +12,6 @@
 ## 🏗️ 技术栈
 
 ### 后端
-- **框架**: HelloAgents (基于SimpleAgent)
 - **API**: FastAPI
 - **MCP工具**: amap-mcp-server (高德地图)
 - **LLM**: 支持多种LLM提供商(OpenAI, DeepSeek等)
@@ -191,20 +189,8 @@ Agent可以自动调用以下高德地图MCP工具:
 - `GET /api/map/weather` - 查询天气
 - `POST /api/map/route` - 规划路线
 
-## 🤝 贡献指南
 
-欢迎提交Pull Request或Issue!
 
-## 📜 开源协议
-
-CC BY-NC-SA 4.0
-
-## 🙏 致谢
-
-- [HelloAgents](https://github.com/datawhalechina/Hello-Agents) - 智能体教程
-- [HelloAgents框架](https://github.com/jjyaoao/HelloAgents) - 智能体框架
-- [高德地图开放平台](https://lbs.amap.com/) - 地图服务
-- [amap-mcp-server](https://github.com/sugarforever/amap-mcp-server) - 高德地图MCP服务器
 
 ---
 
